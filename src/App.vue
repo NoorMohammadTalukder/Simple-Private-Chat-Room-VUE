@@ -2,7 +2,7 @@
   <section class="header-sction">
     <h1>Welcome to Chat Room</h1>
 
-    <div>
+    <div v-if="showButton" >
       <button class="header-button" @click="clickCreateRoom">Create a Room</button>
       <button class="header-button" @click="clickEnterRoom">Enter a Room</button>
     </div>
@@ -38,6 +38,7 @@
         showChat:false,
         inputMsg:"",
         replyMsg:"",
+        showButton:true,
         chatsRoom:[
           {
             id:1,
@@ -106,10 +107,12 @@
 
       },
       enterRoom(name,password){
+        
         const findRoom=this.chatsRoom.find(chat=>chat.name===name && chat.password===password);
         if(findRoom){
           this.isEnterRoomClicked=false;
           this.showChat=true;
+          this.showButton=false;
         }
         
         // console.log(findRoom);
@@ -132,6 +135,7 @@
       },
       leaveRoom(){
         this.showChat=false;
+        this.isEnterRoomClicked=true;
       }
     }
   }
