@@ -6,35 +6,35 @@
 https://user-images.githubusercontent.com/63577979/188636560-71b3fc4b-3668-4cdc-b3cf-3d42b7010bbc.mp4
 
 <h3>Features</h3>
-<li>
-  <ol>Create Room</ol>
-  <ol>Enter to Room</ol>
-  <ol>Enter to Room</ol>
-</li>
+<ul>
+  <li>Create Room</li>
+  <li>Enter to Room</li>
+  <li>Enter to Room</li>
+</ul>
 
 
 <h3>Technologies</h3>
-<li>
-  <ol>VUE.js 3</ol>
-   <ol>Node.js (version:16.15.0)</ol>
-  <ol>Vue cli</ol>
-  <ol>HTML</ol>
-  <ol>CSS</ol>
-  <ol>JavaScript</ol>
-</li>
+<ul>
+  <li>VUE.js 3</li>
+  <li>Node.js (version:16.15.0)</li>
+  <li>Vue cli</li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
 
 <h3>Project Setup</h3>
 <p>We need npm package manager to setup everything. Visit Node.js , download and install nodejs which will install npm package manager with it.</p>
-<li>
-  <ol>Open a terminal or command promt in the directory where the project is kept and run the following commands</ol>
+<ul>
+  <li>Open a terminal or command promt in the directory where the project is kept and run the following commands</li>
   <p><b>npm install</b><p/>
-</li>
+</ul>
 
 <h3>Compiles and hot-reloads for development</h3>
 <p>We need npm package manager to setup everything. Visit Node.js , download and install nodejs which will install npm package manager with it.</p>
-<li>
-  <p><b>npm run serve</b><p/>
-</li>
+<ul>
+  <li><p><b>npm run serve</b><p/></li>
+</ul>
 
 
 
