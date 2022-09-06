@@ -1,13 +1,43 @@
 <template>
     <div class="create-chat">
-        <div>
-            <input type="text" placeholder="Give chatroom a name">
+        <form @submit.prevent="createRoom">
+            <div>
+            <input type="text" v-model="enteredName" placeholder="Give chatroom a name">
         </div>
        <div>
-            <input type="password" placeholder="Give chatroom a password">
+            <input type="password"  v-model="eneteredPassword" placeholder="Give chatroom a password">
        </div>
+       <button>Create</button>
+        </form>
     </div>
 </template>
+
+
+<script>
+export default{
+    data(){
+        return{
+            enteredName:"",
+            eneteredPassword:"",
+
+        }
+    },
+
+    emits:[
+        "create-room",
+    ],
+
+    methods:{
+        createRoom(){
+            if(this.enteredName!=="" && this.eneteredPassword!==""){
+               this.$emit("create-room",this.enteredName,this.eneteredPassword)
+            //    alert(1)
+            }
+        }
+    }
+}
+</script>
+
 
 <style>
     .create-chat-room{
