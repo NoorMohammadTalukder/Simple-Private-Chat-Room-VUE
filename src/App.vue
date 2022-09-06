@@ -135,7 +135,9 @@
       },
       leaveRoom(){
         this.showChat=false;
-        this.isEnterRoomClicked=true;
+        this.showButton=true;
+        this.isEnterRoomClicked=false;
+        this.isCreateRoomClicked=false;
       }
     }
   }
