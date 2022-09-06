@@ -23,6 +23,7 @@
       
       
       ></chat-history>
+      <button @click="leaveRoom">Leave Room </button>
     </div>
   </section>
 </template>
@@ -128,6 +129,9 @@
          this.replyMsg="Sorry!!!! currently I have no messages available for you..."
        }
         // console.log(inputMsg);
+      },
+      leaveRoom(){
+        this.showChat=false;
       }
     }
   }
