@@ -1,6 +1,7 @@
 <h1>Chat Room</h1>
-<p>
-<h3>N.B: This is not real time chat app. This app can reply only some pre defined messages.</h3>
+
+<h5 style style="color:red;">N.B: This is not real time chat app. This app can reply only some pre defined messages.</h5>
+<h3>Live Website: https://neon-khapse-16114f.netlify.app/</h3>
 <h3>Video Simulation</h3>
 
 https://user-images.githubusercontent.com/63577979/188636560-71b3fc4b-3668-4cdc-b3cf-3d42b7010bbc.mp4
